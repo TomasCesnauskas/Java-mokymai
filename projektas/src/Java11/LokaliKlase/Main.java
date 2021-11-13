@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+
+
         Scanner out = new Scanner(System.in);
         System.out.println("Iveskite skaiciu");
         Integer skaicius = out.nextInt();

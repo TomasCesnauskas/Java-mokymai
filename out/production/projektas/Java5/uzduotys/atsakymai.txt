@@ -1,0 +1,18 @@
+Nuskaityti duomenis
+
+1.Apsuktas masyvas
+2-8966-2102-3853
+2.Suma ir Vidurkis
+Suma = 29
+Vidurkis = 2.0
+3. Min ir Max
+Min = -8
+Max = 9
+4. Reiksmes didesnes uz vidurki
+
+5. Neigiami skaiciai
+
+6. Pasikartojantys skaiciai
+7. Antras maziausias skaicius
+
+10. Surikiuoti masyva 

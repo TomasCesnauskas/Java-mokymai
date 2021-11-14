@@ -5,11 +5,11 @@ public class ProgramavimoKalba {
 private String pavadinimas;
 private Integer vieta2014;
     private Integer vieta2013;
-    private double reitingas;
-    private double pokytis;
+    private Double reitingas;
+    private Double pokytis;
 
 
-    public ProgramavimoKalba(String pavadinimas,Integer vieta2014,Integer vieta2013, double reitingas, double pokytis){
+    public ProgramavimoKalba(String pavadinimas,Integer vieta2014,Integer vieta2013, Double reitingas, Double pokytis){
 
         this.pavadinimas = pavadinimas;
         this.vieta2013 = vieta2013;
@@ -42,7 +42,7 @@ private Integer vieta2014;
         this.vieta2013 = vieta2013;
     }
 
-    public double getReitingas() {
+    public Double getReitingas() {
         return reitingas;
     }
 
@@ -50,7 +50,7 @@ private Integer vieta2014;
         this.reitingas = reitingas;
     }
 
-    public double getPokytis() {
+    public Double getPokytis() {
         return pokytis;
     }
 

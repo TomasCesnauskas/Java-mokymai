@@ -1,0 +1,7 @@
+6 - lyginis
+7 - nelyginis
+8 - lyginis
+11 - nelyginis
+28 - lyginis
+21 - nelyginis
+23 - nelyginis

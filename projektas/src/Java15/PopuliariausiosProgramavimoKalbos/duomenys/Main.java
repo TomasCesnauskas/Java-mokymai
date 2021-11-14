@@ -38,7 +38,7 @@ public class Main {
             int LanguageNumber = Integer.parseInt(line);
 
 //            while (line != null) {
-            for (int i = 0; i < 6; i++) {
+            for (int i = 0; i < LanguageNumber; i++) {
                 line = br.readLine();
                 String[] values = line.split(" ");
                 String pavadinimas = values[0];
@@ -68,7 +68,7 @@ for(int i = 0; i < kalba.size(); i++){
     bw.newLine();
 
 }
-
+bw.close();
         } catch (Exception e) {
             e.printStackTrace();
         }

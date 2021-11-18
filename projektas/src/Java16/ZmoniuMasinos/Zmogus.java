@@ -34,6 +34,16 @@ public class Zmogus {
         return pavarde;
     }
 
+    @Override
+    public String toString() {
+        return
+                "asmensKodas='" + asmensKodas + '\'' +
+                ", vardas='" + vardas + '\'' +
+                ", pavarde='" + pavarde + '\'' +
+                ", masinosNr='" + masinosNr + '\'' +
+                '}';
+    }
+
     public void setPavarde(String pavarde) {
         this.pavarde = pavarde;
     }
@@ -45,4 +55,7 @@ public class Zmogus {
     public void setMasinosNr(String masinosNr) {
         this.masinosNr = masinosNr;
     }
+
+
 }
+

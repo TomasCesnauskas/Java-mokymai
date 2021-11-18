@@ -27,6 +27,9 @@ public class Masina {
 
     @Override
     public String toString() {
-        return "Marke: " + marke + "Nr: " + numeriai;
+        return
+                "marke='" + marke + '\'' +
+                ", numeriai='" + numeriai + '\'' +
+                '}';
     }
 }

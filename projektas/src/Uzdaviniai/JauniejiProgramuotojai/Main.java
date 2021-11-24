@@ -3,6 +3,8 @@ package Uzdaviniai.JauniejiProgramuotojai;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
 import java.util.List;
 
 public class Main {
@@ -13,7 +15,15 @@ public class Main {
         int skaiciusMokiniu = skaityti(failoKelias,mokiniai);
         System.out.println(skaiciusMokiniu);
         System.out.println(mokiniai);
+        Collections.sort(mokiniai);
+        System.out.println(mokiniai);
+        atrinktiGeriausius(mokiniai, skaiciusMokiniu);
+        System.out.println("Sudarytos klases mokiniu sarasas");
+        for(JaunasisProgramuotojas laikinas : mokiniai){
+            System.out.println(laikinas);
+        }
 
+        System.out.println();
 
     }
 
@@ -51,5 +61,23 @@ public class Main {
 return priimamuSkaicius;
     }
 
+    static void atrinktiGeriausius(List<JaunasisProgramuotojas> b, Integer kiekPalikti){
 
-}
+        Iterator itr = b.iterator();
+        int i = 1;
+        while(itr.hasNext())
+        {
+            itr.next();
+            if(i > kiekPalikti){
+
+                itr.remove();
+            }
+
+            i++;
+        }
+
+        }
+
+    }
+
+
